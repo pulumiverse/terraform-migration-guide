@@ -1,10 +1,10 @@
 # Conditional Resources
 
-With HCL, you can define resources that are conditionally created based on the value of a variable and using this in a ternary statement to set the `count` value to `0` or `1`.
+With Terraform HCL, you can define resources that are conditionally created based on the value of a variable and using this in a ternary statement to set the `count` value to `0` or `1`.
 
 An example of such looks like this:
 
-```hcl
+```terraform
 variable "enabled" {
   type        = bool
   default     = true

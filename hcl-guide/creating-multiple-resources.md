@@ -1,8 +1,8 @@
 # Creating Multiple Resources
 
-Creating multiple resources is a rather common operation with cloud infrastrucre and HCL provides a `count` option that allows you to specify that you want some arbitrary number.
+Creating multiple resources is a rather common operation with cloud infrastrucre and Terraform HCL provides a `count` option that allows you to specify that you want some arbitrary number.
 
-```hcl
+```terraform
 resource "null_resource" "simple" {
   count = 2
 }

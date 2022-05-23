@@ -8,7 +8,7 @@ Parameters can be passed to these modules via variables.
 
 Using a Terraform module looks like:
 
-```hcl
+```terraform
 module "servers" {
   source = "./app-cluster"
 

@@ -1,4 +1,4 @@
-# HCL Guide
+# Terraform HCL Guide
 
 - [Code Re-use](./code-reuse.md)
 - [Conditional Resources](./conditional-resources.md)
