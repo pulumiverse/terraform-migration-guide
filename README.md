@@ -4,7 +4,7 @@ This guide wants to help you migrate your existing Terraform programs to Pulumi 
 
 ## Terraform HCL Guide
 
-This [guide](./terraform-hcl-guide/) aims to show you Pulumi variations on existing HCL syntax and patterns.
+This [guide](./hcl-guide/) aims to show you Pulumi variations on existing HCL syntax and patterns.
 
 ## tf2pulumi Guide
 
