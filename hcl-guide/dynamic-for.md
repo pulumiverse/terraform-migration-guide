@@ -47,7 +47,7 @@ resource "azurerm_virtual_network" "example" {
 With Pulumi, we can provide an easier to understand alternative that can be typed and read more easily. The use of `for_each` the inlined comprehensionm, `for`, can be replaced by a `map` function.
 
 
-```typscript
+```typescript
 interface Subnet {
     name: string;
     addressPrefix: number;
